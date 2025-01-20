@@ -2,7 +2,7 @@
 
 .sobre_container{
     max-width: 900px;
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -13,7 +13,6 @@
 }
 .sobre_container h1{
     font-size: 40px;
-    padding-top: 30px;
 }
 .sobre_container p{
     font-size: 18px;
@@ -22,4 +21,9 @@
     font-size: 50px;
     color: #B2987D;
     font-family: 'Great Vibes';
+}
+@media (max-width: 425px) {
+    .sobre_container{
+        margin-top: 50px;
+    }
 }
