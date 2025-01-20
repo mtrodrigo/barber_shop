@@ -1,7 +1,7 @@
 .topo{
     width: 100%;
     background-color: #fff;
-    max-height: 15vh;
+    max-height: 10vh;
 }
 .topo_container{
     max-width: 1024px;
@@ -21,23 +21,4 @@
     border: 1px solid #B2987D;
     border-radius: 25px;
     background-color: #fff;
-}
-.modo_escuro{
-    background-color: #252323;
-}
-.modo_escuro header{
-    background-color: #252323;
-}
-.modo_escuro .img_logo{
-    filter: invert(1) brightness(2);
-}
-.modo_escuro header button{
-    background-color: #252323;
-    color: #fff;
-}
-.modo_escuro h1{
-    color: #fff;
-}
-.modo_escuro p{
-    color: #fff;
 }

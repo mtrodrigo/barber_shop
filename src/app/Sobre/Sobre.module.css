@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.sobre_container{
+    max-width: 900px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.sobre_container h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.sobre_container p{
+    font-size: 18px;
+}
+.sobre_container span{
+    font-size: 50px;
+    color: #B2987D;
+    font-family: 'Great Vibes';
+}
